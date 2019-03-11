@@ -1,0 +1,16 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 100px;
+    background: blue;
+}
+section{
+    flex: 1;
+}
+footer{
+    height: 60px;
+    border-top: 1px solid #ccc;
+}
