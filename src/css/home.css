@@ -1,0 +1,324 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.out{
+  height: 75vh !important;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+ 
+}
+
+header{
+  height: 105px !important;
+  background: #0090ff;
+  position: relative;
+ 
+}
+
+
+
+
+.zuo{
+  position: absolute;
+  color: white; 
+  left: 20px;
+  top: 5px;
+  font-size: 20px !important;
+}
+.you{
+  position: absolute;
+  color: white;
+  top: 15px;
+  left: 90%;
+  font-size: 20px !important;
+}
+.fang{
+  position: absolute;
+  color: #9bd4ff;
+  top: 60px;
+  left: 28%;
+  font-size: 22px !important;
+}
+
+
+.sha{
+  height: 50px;
+  line-height: 50px;
+}
+.xia{
+  height: 55px;
+  line-height: 45px;
+  text-align: center;
+}
+.xia input{
+  width: 30%;
+  padding-left: 30%;
+  border: none;
+  outline: none;
+  height: 30px;
+  background: #33a6ff;
+  border-radius: 30px;
+}
+.zho{
+  width: 60%;
+  height: 50px;
+  margin-left: 20%;
+}
+.zho span{
+  float: left;
+  width: 25%;
+  text-align: center;
+  font-size: 26px;
+  color: #9bd4ff;
+}
+.zho span:hover{ 
+  color: white;
+  font-size: 28px;
+}
+
+
+
+/* .hmoe{
+    background: #1d82fe;
+    padding: 1vh 0;
+    height:12vh
+}
+.hmoe-nav{
+    width:100vw;
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    line-height: 40px;
+
+}
+.hmoe-nav .iconfont{
+    font-size: 24px;
+}
+.hmoe-sos{
+    height:20px;
+    width:80%;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    margin: 0 auto;
+} */
+.my-drawer {
+    position: relative;
+    overflow: auto;
+    min-height:75vh !important;
+    
+    -webkit-overflow-scrolling: touch;
+  }
+  .am-drawer-content{
+    padding-top:0 !important;
+    color: #333 !important;
+    
+  }
+  .my-drawer .am-drawer-sidebar {
+    background-color: #fff;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .my-drawer .am-drawer-sidebar .am-list {
+    width: 250px;
+    padding: 0;
+  }
+  .am-navbar{
+    background: none;
+    font-size: 24px;
+  }
+  li{
+      list-style: none;
+  }
+.home-caidan {
+    padding-left: 5px;
+    height:84vh;
+    margin: 5px 0;
+    position: relative
+
+}
+.home-caidan li {
+    height:50px;
+    line-height: 50px;
+    text-align: left;
+    font-size: 20px;
+}
+.home-caidan  li:last-child{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+}
+
+
+/* 播放器进度条 */
+.demo-preview-item .am-slider-wrapper {
+    margin-bottom: 15px;
+  }
+  .demo-preview-item .am-slider-example {
+    overflow: hidden;
+  }
+  .am-wingblank.am-wingblank-lg {
+    margin-bottom: 30px;
+  }
+  .demo-preview-item .am-slider-wrapper:last-child {
+    margin-bottom: 10px;
+  }
+  .sub-title {
+    color: #888;
+    font-size: 14px;
+    padding: 30px 0 18px 0;
+    margin: 0;
+  }
+  .bojindu{
+      width:100%;
+      height:50%;
+      position: absolute;
+      top:0;
+      /* float: right; */
+  }
+  .bofangqi{
+    height: 100%;
+    float: left;
+    width: 100%;
+  }
+  .bofang{
+      position: absolute;
+      bottom: 0;
+      height:12.8vh;
+      background: #fff;
+      width:100%;
+      /* background: #3fd631b2 */
+  }
+  .gequxx{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 52%;
+    width:100%;
+    height:48%;
+    line-height: 40px;
+    
+  }
+  .gequxx i{
+    font-size: 25px;
+    /* padding-left: 10px;
+     */
+     padding-right: 20px;
+     /* float: right; */
+     line-height: 40px;
+  }
+  .gequxx span {
+    /* font-size: 25px; */
+    padding-left: 15px;
+  }
+  .am-wingblank {
+      margin: 0 !important;
+  }
+  .geqtq{
+      width:50px;
+      height:50px;
+      float: left;
+      padding: 0;
+      margin: 0;
+      border-radius: 50%;
+      background: #1d82fe;
+      position: absolute;
+      top:-20px;
+      left:19px;
+  }
+  .gequxx1{
+    width:60%;
+    
+  }
+  .gequxx2{
+    width:40%;
+    
+  }
+  .gerem{
+      display: block;
+      font-size: 18px;
+      font-weight: 700;
+      width:50%;
+      float: left;
+      white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+  }
+  .gemi{
+    float: left;
+    display: block;
+    font-size: 16px;
+    width:25%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .home-bo{
+      margin: 0;
+      /* float: right; */
+      padding-left: 30px;
+
+      display: flex;
+    justify-content: space-between;
+  }
+  .home-connet{
+      overflow: auto;
+      height:75vh;
+  }
+  .am-list-item{
+    padding-left: 0 !important;
+    font-size: 20px !important;
+  }
+  .am-list-content{
+    font-size: 20px !important;
+    height: 50px  !important;
+    padding: 0  !important;
+    line-height: 50px  !important;
+    text-align: left !important;
+
+    display: block !important;
+
+
+  }
+  #home .Playlist{
+    position: fixed;
+    bottom: 0;
+    height:40vh;
+    width:100%;
+    z-index:100;
+    background: #fff
+  }
+  #home .Playlist .Playlist-heard{
+    height:30px;
+    font-size:18px;
+    line-height: 30px;
+    padding: 0  20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #home .Playlist .Playlist-heard i{
+    font-size:20px;
+    margin-left: 20px;
+  }
+  #home .Playlist  ul{
+    overflow: auto;
+    height:80%;
+  }
+  #home .Playlist  li{
+    height: 30px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+  }

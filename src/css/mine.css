@@ -1,0 +1,177 @@
+.out{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 105px;
+    background: #0090ff;
+    position: relative;
+}
+
+section{
+    flex: 1;
+    overflow: auto;
+}
+
+
+
+
+
+
+.dian{
+    height: 44px;
+    padding: 20px 20px;
+    border-bottom: 1px solid #ccc;
+}
+.dian .shu{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #aaa;
+}
+.tou{
+    font-size: 30px !important;
+    color: white;
+}
+.dian .jing{
+    display: block;
+    width: 220px;
+    margin-left: 60px;
+    margin-top: -35px;    
+    font-size: 18px!important;
+}
+
+.xiang{
+    float: right;
+    margin-top: -24px;
+    font-size: 26px !important;
+}
+
+
+.ben{
+    height: 120px;
+    padding-top: 20px;
+    border-bottom: 8px solid #ccc;
+}
+
+
+.ben .teshu{
+    font-size: 26px;
+    color: #0090ff;
+}
+.ben dl{
+    float: left;
+    height: 120px;
+    text-align: center;
+    width: 25% !important;
+    text-align: center
+}
+.ben dd{
+    margin: 0;
+    margin-top: 10px;
+    font-size: 18px;
+    width: 100%;
+   
+}
+.ben dd p{
+    height: 25px !important;
+}
+.cuo{
+    height: 85px;
+}
+.cuo li{
+    height: 40px;
+    font-size: 18px;
+    padding-right: 15px;
+    margin-left: 38px;
+    line-height: 40px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+.cuo li span{
+    float: right;
+}
+
+
+.hao{
+    float: right;
+    margin-right: 15px;
+}
+
+
+.ziji{
+    min-height: 80px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+}
+.dan{
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 20px;
+}
+.ziji dl{
+    height: 60px;
+    padding: 10px 0;
+    padding-left: 20px;
+    margin: 0;
+   
+    /* display: none; */
+}
+.ziji dt{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 60px;
+    background: #fb7461;
+    float: left;
+}
+.ziji dl dd{
+    float: left;
+    margin-left: 15px;
+    line-height: 30px;
+    /* font-size: 18px !important; */
+}
+.ziji .cang{
+    font-size: 50px !important;
+    color: white;
+}
+.tui{
+    height: 60px;
+    font-size: 18px;
+    padding-left: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.tui span{
+    float: left;
+    font-size: 15px;
+}
+
+
+footer{
+    height: 70px;
+    line-height: 70px;
+    border-top: 1px solid #f3f3f3;
+}
+
+
+.gedanhsdj{
+    float: left;
+    width:50vw;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.deledanhsdj{
+    width:10vw;
+    float: right
+}

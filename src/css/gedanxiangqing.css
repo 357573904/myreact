@@ -1,0 +1,41 @@
+.geedanhead{
+    height:30vh !important;
+
+}
+.geedanhead .gedanxiinxi{
+    height: 60%;
+    display: flex;
+    justify-content: space-between
+}
+.geedanhead .gedanxiinxi .gedanimg{
+    height: 100px;
+    width:100px;
+    background: pink;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+}
+.geedanhead .gedanxiinxi div{
+    font-size: 22px;
+    padding: 20px 20px 5px;
+    text-align: left;
+    width: 60%;
+    line-height: 30px;
+}
+.geedanhead .caozuo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.geedanhead .caozuo p{
+        font-size: 30px;
+
+}
+.geedanhead .caozuo div{
+    font-size: 20px;
+    line-height: 30px;
+}
+ul{
+    overflow: auto;
+    height: 50vh;
+}

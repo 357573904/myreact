@@ -1,0 +1,204 @@
+.out{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+header{
+    height: 105px;
+    background: #0090ff;
+    position: relative;
+}
+ 
+
+
+section{
+    flex: 1;
+    overflow: auto;
+    /* color:black */
+}
+.new{
+    margin-top: 20px;
+    height: 130px !important;   
+    font-size: 18px; 
+}
+ .new dl{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-left: 30px;
+}
+.new .ziti{
+    font-size: 40px;
+    color: white;
+}
+
+.new dd{
+    margin-top: 15px;
+    margin-left: -26px;
+}
+
+.new dt{
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    text-align: center;
+    line-height: 70px;
+    background: orange;
+} 
+
+.kuai{
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+}
+
+.kuai span{
+    float: left;
+    width: 22%;
+    background: #ccc;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    border-radius: 6px;
+}
+
+.tiao{
+    height: 40px;
+    border-bottom: 8px solid #ccc;
+    padding-top: 17px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+
+.tiao .tou{
+    float: left;
+    width: 44px;
+    height: 26px;
+    text-align: center;
+    line-height: 25px;
+    background: red;
+    font-size: 18px !important;
+}
+
+.zai{
+    font-size: 16px;
+    margin-left: -30px;
+    height: 26px;
+    border-right: 1px solid #aaa;
+}
+.tiao .you1{
+    float: right;
+    /* margin-top: 147px; */
+    color: #ccc;
+    font-size: 26px !important;
+}
+
+
+.guan{
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #ccc;
+}
+.guan span{
+    font-size: 18px;
+    float: left;
+    margin-left: 70px;
+    height: 58px;
+}
+.guan span:hover{
+    color: #0090ff;
+    border-bottom: 2px solid #0090ff;
+}
+
+
+.gao{
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    line-height: 30px;
+    padding-left: 15px;
+    font-size: 14px;
+    text-align: left
+}
+.keke{
+    padding-left: 15px;
+    padding-top: 20px;
+    height: 60px;
+    font-size: 18px;
+}
+.keke span{
+    float: left;
+}
+.quan{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #eee;
+}
+.thh{
+    margin-top: 13px;
+    margin-left: 10px;
+}                               
+.sheng{
+    margin-left: 90%;
+    margin-top: -40px;
+}
+
+.ppp{
+    height: 30px;
+    padding-left: 15px;
+    line-height: 30px;
+}
+.zou{
+    height: 100px;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+.zou span{
+    float: left;
+}
+.nv{
+    height: 100px;
+    width: 100px;
+    background: #ddd;
+}
+.sss{
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.ye{
+    margin-left: 75px;
+    margin-top: 30px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid #aaa;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+
+.wu{
+    margin-top: 30px;
+    height: 40px;
+    border-bottom: 6px solid #eee;
+}
+
+.wu span{
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+footer{
+    height: 70px;
+    line-height: 70px;
+    border-top: 1px solid #f3f3f3;
+}

@@ -1,0 +1,56 @@
+#yinyuebofang {
+    height: 100vh;
+    width:100vw;
+  
+}
+#yinyuebofang .ybeijing{
+    position: absolute;
+    height: 100vh;
+    width:100vw;
+    z-index: -1;
+    left:0;
+    top:0;
+}
+#yinyuebofang .heihg{
+    height:10vh;
+}
+#yinyuebofang  .gesi{
+    height:75vh;
+    overflow: auto;
+
+} 
+#yinyuebofang  .dibu{
+    height:15vh;
+
+}
+#yinyuebofang  .dibu .gcaozuo{
+    /* height:20vh; */
+    display: flex;
+    justify-content: space-around;
+    height:30px;
+
+}
+#yinyuebofang  .dibu .gcaozuo p{
+        font-size: 26px;
+        line-height: 30px;
+}
+#yinyuebofang .audio {
+    line-height: 50px;
+    display: flex;
+    margin-top: 10px;
+    /* justify-content: space-around; */
+    justify-content: space-evenly
+}
+#yinyuebofang .audio i{
+    display: block;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background: pink;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+#yinyuebofang .audio audio{
+    /* background: pink; */
+}

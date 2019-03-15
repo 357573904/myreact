@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    height: 60px;
+    width: 95%;
+    background: #0090ff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 22px;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 0 15px;
+}
+.top .zoo{
+    float: left;
+    font-size: 26px;
+}
+.top .yoo{
+    float: right;
+    font-size: 26px;
+}
+
+.zhoo{
+    overflow: auto;
+    width: 100%;
+    margin-top: 60px;
+    height:80vh;
+}
+
+
+
+.shh{
+    margin-top: 60px;
+    width: 90%;
+    height: 40px;
+    border: 1px solid #0090ff;
+    border-radius: 40px;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.xiu{
+    color: #0090ff;
+}
+
+
+.mee{
+    height: 60px;
+    line-height: 60px;
+    padding-left: 15px;
+    color: #0090ff;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.mee span{
+    float: right;
+    margin-right: 10px;
+}
+
+
+.biao{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    color: #0090ff;
+}
+.biao span{
+    float: right;
+    margin-right: 10px;
+}
+
+
+.biao em{
+    color: #000 !important;
+    font-style: normal;
+}
+
+
+
+
+.zhu{
+    width: 100%;
+    height: 60px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.zhu span{
+    float: left;
+}
+
+
+
+.one{
+    line-height: 60px;
+    font-size: 18px;
+}
+
+
+.two{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background: rebeccapurple;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
+.thr{
+    margin-left: 15px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.thr p{
+    font-size: 16px !important;
+    color: #aaa;
+}
+
+
+
+.fou{
+    margin-left: 30px;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 15px;
+    color: white;
+    background: #0090ff;
+    font-size: 16px;
+}
+
+
+
+
+.gud{
+    /* display: none; */
+    position: fixed;
+    left: 0;
+    top: 163px;
+    width: 100%;
+    height: 545px;
+}
+
+
+
+.shhs{
+    height: 275px;
+    background: white;
+}
+
+
+.shhs span{
+    width: 28%;
+    height: 40px;
+    float: left;
+    margin-left: 12px;
+    margin-top: 13px;
+    color: #0090ff;
+    font-size: 16px;
+    border: 1px solid #0090ff;
+    border-radius: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+
+.shhs em{
+    width: 44%;
+    height: 40px;
+    float: left;
+    margin-left: 13px;
+    margin-top: 13px;
+    color: #0090ff;
+    font-size: 16px;
+    border: 1px solid #0090ff;
+    border-radius: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-style: normal;
+}
+
+
+
+.xiix{
+    height: 270px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+.soo{
+    display: none;
+}
+.haa{
+    /* display: none; */
+}
+
+
+.woo{
+    height: 52px;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.nii{
+    float: left;
+    width: 20%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+}
+.nii:hover{
+    color: #0090ff;
+    border-bottom: 2px solid #0090ff;
+}
+
+
+
+
+.gee{
+    height: 60px;
+    margin-top: 53px;
+    background: #111;
+    padding: 10px 0 0 10px;
+    color: white;
+    font-size: 22px;
+    text-align: left;
+}
+
+.shu{
+    height: 180px;
+    width: 100%;
+    overflow: auto;
+    background: #111;
+}
+
+.chuan{    
+    overflow: hidden;    
+    width: 1200px;
+    height: 180px;
+}
+.chuan dl{
+    width: 120px;
+    height: 140px;
+    overflow: hidden;
+    float: left;
+    margin-left: 20px;
+}
+.chuan dl dd{
+    color: white;
+    font-size: 16px;
+}
+.chuan img{
+    width: 120px;
+    height: 120px;
+}
+
+
+.quu{
+    height: 120px;
+    padding-top: 15px;
+}
+
+
+.quu span{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+
+.chu{
+    font-size: 32px;  
+    color: #0090ff; 
+}
+
+
+.chu p{
+    font-size: 18px !important;
+    margin-top: 10px;
+    color: #000 !important;
+
+}
+
+
+.dii{
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 5px solid #0090ff;
+    text-align: left;
+}
+
+
+.jia{
+    height: 170px;
+}
+
+
+.jia dl{
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+}
+.jia img{
+    width: 100px;
+    height: 100px;
+}
+
+.jia dd{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.jiao{
+    height: 70px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+}

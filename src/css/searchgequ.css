@@ -1,0 +1,162 @@
+#gequsousuo ul {
+    padding:0 10px
+}
+
+
+#gequsousuo ul li{
+    height:50px !important;
+    border-bottom:1px solid #ccc !important;
+    padding: 10px 0 !important;
+}
+p{
+    margin: 0;
+    padding:0;
+}
+#gequsousuo .muliee{
+    height: 100%;
+    width:100%;
+    /* display: flex;
+    justify-content: space-between; */
+}
+#gequsousuo .localgename{
+    height: 25px  !important;
+    line-height: 25px !important;
+    float: none !important;
+    font-size:16px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    width:100%;
+    text-overflow: ellipsis
+}
+#gequsousuo .localsinger{
+    white-space: nowrap;
+    overflow: hidden;
+    width:100%;
+    text-overflow: ellipsis;
+    font-size:14px !important;
+    line-height: 24px !important;
+}
+#gequsousuo .localmore{
+    float: right !important;
+    width:30px !important;
+}
+#gequsousuo .tupian{
+    float: left !important;
+    height:45px !important;
+    width:45px !important;
+    border-radius: 50% !important;
+    background: pink !important;
+}
+#gequsousuo  .xinxi{
+    width:65% !important;
+    float: left !important;
+    margin-left: 10px !important;
+}
+.muliee1{
+    height: 100% !important;
+    width:100% !important;
+}
+#gequsousuo .muliee1>p{
+    float: left !important;
+    width:50px !important;
+    height:50px !important;
+    background: pink !important;
+}
+#gequsousuo .muliee1>div{
+    float: left !important;
+    margin-left: 10px !important;
+    height:100% !important;
+    font-size: 20px !important;
+    line-height: 25px !important;
+}
+#gequsousuo .muliee1 .iconfont{
+    font-size: 25px !important;
+    line-height: 25px !important;
+    margin-left: 30px !important;
+}
+#gequsousuo .muliee1 .more{
+    margin-left: 50px !important;
+}
+
+
+/* 歌曲信息 */
+#gequsousuo .MulieeRelevant{
+    position: fixed;
+    bottom: 0;
+    height:50vh;
+    width:100%;
+    overflow: hidden;
+    background: white;
+    z-index: 100;
+}
+#gequsousuo .MulieeRelevant>p{
+    height:36px;
+    font-size: 20px;
+    line-height: 36px;
+    white-space: nowrap;
+    overflow: hidden;
+    width:85%;
+    text-overflow: ellipsis
+}
+#gequsousuo .MulieeRelevant>span{
+  height:30px;
+  width:30px;
+  font-size: 22px;
+  line-height: 30px;
+  display: block;
+  position: absolute;
+  top:5px;
+  right:10px;
+
+}
+#gequsousuo .MulieeRelevant ul{
+    height:90%;
+    margin: 0;
+    font-size: 20px;
+    line-height: 10%;
+    overflow: auto
+
+}
+#gequsousuo .MulieeRelevant li{
+    height:30px !important;
+    padding-left: 15px !important;
+    margin: 0;
+    
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+}
+/* 添加歌单 */
+#gequsousuo .addged{
+    position: fixed;
+    bottom: 0;
+    height:50vh;
+    width:100%;
+    z-index: 100;
+    background: white
+}
+#gequsousuo .addged span{
+    height:30px;
+    width:30px;
+    font-size: 22px;
+    line-height: 30px;
+    display: block;
+    position: absolute;
+    top:5px;
+    right:10px;
+}
+#gequsousuo .addged>p{
+    height:10%;
+    font-size: 20px;
+    line-height: 36px;
+}
+#gequsousuo .addged ul{
+    overflow: auto;
+}
+#gequsousuo .addged li{
+    height:30px !important;
+    padding-left: 15px !important;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+}

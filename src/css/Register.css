@@ -1,0 +1,14 @@
+.rushu{
+    height:40px;
+    width: 90%;
+    margin:10px auto;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+}
+.rushu input{
+    border:none;
+    width:76%;
+    height:38px;
+    padding-left: 10px;
+}
